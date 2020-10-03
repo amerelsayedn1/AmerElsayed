@@ -31,8 +31,9 @@ a {
     outline: none;
     text-decoration: none !important; }
 
-p {
-  margin-bottom: 1.5em; }
+/* p {
+  margin-bottom: 1.5em; } */
+  .bold  { font-weight: bold;}
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
@@ -381,7 +382,7 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
+  /* padding-bottom: 9em; */
   clear: both;
   width: 100%;
   display: block; }
@@ -405,7 +406,7 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  /* margin-bottom: 4em; */
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -416,7 +417,7 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .colorlib-heading {
       margin-bottom: 3em; } }
-
+.more-detail span {display: block;}
 .heading-meta {
   margin-bottom: 15px;
   display: block;
@@ -480,7 +481,7 @@ body.offcanvas {
 
 .panel-heading a:after {
   font-family: "icomoon";
-  content: "\e115";
+  /* content: "\e115"; */
   position: absolute;
   right: 20px;
   font-size: 14px;
@@ -600,7 +601,10 @@ body.offcanvas {
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
   font-size: 20px;
   font-family: "Quicksand", Arial, sans-serif;
-  font-weight: 500; }
+  font-weight: 500;
+  margin-bottom: 6px;
+
+}
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
   color: #000; }
@@ -727,6 +731,7 @@ body.offcanvas {
       border-color: transparent transparent #4054b2 transparent; }
     .services.color-6 .icon:after {
       border-color: #4054b2 transparent transparent transparent; }
+
 
 .progress-wrap h3 {
   font-size: 16px;
